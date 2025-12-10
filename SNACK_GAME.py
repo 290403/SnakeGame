@@ -1,8 +1,8 @@
 from tkinter import *
 import random
 
-GAME_WIDTH = 700
-GAME_HEIGHT = 700
+GAME_WIDTH = 500
+GAME_HEIGHT = 500
 SPEED = 200
 SPACE_SIZE = 50
 BODY_PARTS = 3
@@ -128,3 +128,4 @@ food = Food()
 next_turn(snake, food)
 
 window.mainloop()
+
